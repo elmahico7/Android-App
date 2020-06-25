@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:padding="16dp"
+    android:background="@color/colorPrimary"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            tools:src="@drawable/it"
+            android:id="@+id/imgCountryFlag"
+            android:layout_width="48dp"
+            android:layout_height="32dp"/>
+        <TextView
+            android:id="@+id/tvCountryName"
+            tools:text="China"
+            style="@style/LabelFontStyle"
+            android:layout_marginLeft="8dp"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvTotalCases"
+            style="@style/LabelFontStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTotalConfirmed"
+            android:textSize="20sp"
+            tools:text="82343"
+            android:layout_marginLeft="5dp" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
